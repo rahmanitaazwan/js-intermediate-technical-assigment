@@ -1,3 +1,10 @@
 Apa itu localStorage?
+//localStorage merupakan fungsi di javasript yang digunakan untuk menyimpan data dan data tersebut tidak akan hilang walaupun 
+browser di close dan komputer di restart.
+
 Apa itu cookies?
+//cookies digunakan untuk menyimpan token pengindentifikasi untuk otentikasi, sesi dan pelacakan iklan. 
+
 Apa perbedaan antara localStorage dan sessionStorage?
+// pada localStrorage data yang disimpan tidak memilikii expired.
+Session storage hanya menyimpan data sementara saja.

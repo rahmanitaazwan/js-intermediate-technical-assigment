@@ -18,6 +18,8 @@ first log:  5
 second log:  6
 
 // 5. Apabila terdapat ketidak samaan antara console.log pertama dan kedua, bisakah kalian memberikan penjelasan mengapa hal tersebut bisa terjadi
+/*karena variable i di deklarasi dengan var yang menjadikannya variabel global dan telah di ubah oleh proses first log karena i memiliki alamat yang sama
+
 
 // 6. Perbaiki baris kode dibawah sehingga ia akan menampilkan angka yang sama
 for (var i = 1; i<=5; i++) {
@@ -25,6 +27,7 @@ for (var i = 1; i<=5; i++) {
     setTimeout(() => console.log("second log: ", i), 100); // 02 - Kedua
   }
 
-  console.log(i);
-  console.log("selesai!");
-  
+  for (let i = 1; i <= 5; i++) {
+    console.log("first log: ", i); // 01 - Pertama
+    setTimeout(() => console.log("second log: ", i), 100); // 02 - Kedua
+}
